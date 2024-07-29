@@ -30,7 +30,7 @@ const About = () => {
         >
           <PageSentence
             badge="ABOUT"
-            title="Kami tim dari RiuStudio"
+            title="RiuStudio"
             description={`Beberapa orang kreatif berkumpul di tempat yang sama - itulah RiuStudio.
             RiuStudio adalah penyedia jasa digital yang berdedikasi untuk membantu bisnis membangun kehadiran online yang kuat dan efektif. Kami menawarkan berbagai layanan digital yang mencakup pembuatan website, desain web, pengembangan web, optimasi mesin pencari (SEO), pemeliharaan dan dukungan teknis, pembuatan konten digital, konsultasi digital, serta pengembangan aplikasi web dan mobile.
             <br> <br>
