@@ -69,14 +69,14 @@ const NavBar = () => {
                   value="How We Work"
                   canActive={true}
                 />
-                <NavLink href="/project" value="Project" canActive={true} />
-                <NavLink href="/about" value="About" canActive={true} />
+                <NavLink href="/project" value="Projects" canActive={true} />
+                <NavLink href="/about" value="Tentang" canActive={true} />
               </div>
               <div
                 className={`${isOpen ? '' : 'hidden '}lg:block mt-5 lg:mt-0`}
               >
                 <ButtonLink
-                  value="Contact"
+                  value="Kontak"
                   style="light"
                   color="white"
                   size="small"
