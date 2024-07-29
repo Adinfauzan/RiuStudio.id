@@ -21,12 +21,12 @@ import IconListItem from 'components/molecules/IconListItem'
 const Services = () => {
   return (
     <>
-      <PageTemplate title='Service - RiuStudio'>
+      <PageTemplate title='Melayani - RiuStudio'>
         <section className="grid place-items-center" data-aos="zoom-in-up">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
             <PageSentence
-              badge="SERVICES"
-              title="We are here to help solve your company's problems"
+              badge="JASA"
+              title="Kami hadir untuk membantu menyelesaikan permasalahan perusahaan Anda"
             />
           </div>
         </section>
@@ -46,24 +46,24 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="UI DESIGN"
-                title="Don't let your idea get caught by others, design a prototype for your idea"
-                paragraph="Delegate your ideas as quickly as possible, create beautiful designs and vivid prototypes."
+                title="Jangan biarkan ide Anda tertangkap oleh orang lain, rancanglah prototipe ide Anda"
+                paragraph="Delegasikan ide Anda secepat mungkin, buat desain yang indah dan prototipe yang jelas."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <SmallCardIcon
-                  title="Beautiful Design"
-                  description="Create a modern design for your idea."
+                  title="Desain Friendly"
+                  description="Ciptakan desain modern untuk ide Anda."
                   icon={<FiLayout />}
                 />
                 <SmallCardIcon
                   title="Prototype"
-                  description="Create vivid prototypes for your designs."
+                  description="Buat prototipe yang jelas untuk desain Anda."
                   icon={<FiLayout />}
                 />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="Detil Layanan" href="/service/detail" />
             </div>
           </aside>
         </section>
@@ -72,8 +72,8 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="DEVELOPMENT"
-                title="Create solutions to repetitive problems, design applications and access anywhere!"
-                paragraph="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
+                title="Ciptakan solusi untuk masalah yang berulang, rancang aplikasi, dan akses di mana saja!"
+                paragraph="Cukup beritahu kami masalah berulang Anda atau metode primitif yang digunakan saat ini, dan kami akan menciptakan solusi digital."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
@@ -88,7 +88,7 @@ const Services = () => {
                 />
                 <CardListIcon icon={<FiGlobe />} title="Web Development" />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="Detil Layanan" href="/service/detail" />
             </div>
           </aside>
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-left">
@@ -117,18 +117,18 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="MAINTENANCE"
-                title="Think of your server as your own child, taking care of it every day"
-                paragraph="We will back up your servers every day, clean them every week, upgrade them when there is an update."
+                title="Bayangkan server Anda seperti anak Anda sendiri, uruslah setiap hari"
+                paragraph="Kami akan membackup server Anda setiap hari, membersihkannya setiap minggu, mengupgradenya bila ada pembaruan."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-                <IconListItem icon={<FiDownload />} value='Back up every day' />
-                <IconListItem icon={<FiArrowUp />} value='Upgrade' />
-                <IconListItem icon={<FiRefreshCcw />} value='Cleaning every week' />
-                <IconListItem icon={<FiCheckCircle />} value='Fixing Error' />
+                <IconListItem icon={<FiDownload />} value='Cadangkan setiap hari' />
+                <IconListItem icon={<FiArrowUp />} value='Meningkatkan' />
+                <IconListItem icon={<FiRefreshCcw />} value='Pembersihan setiap minggu' />
+                <IconListItem icon={<FiCheckCircle />} value='Memperbaiki Kesalahan' />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="Detil Layanan" href="/service/detail" />
             </div>
           </aside>
         </section>
