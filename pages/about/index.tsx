@@ -30,7 +30,7 @@ const About = () => {
         >
           <PageSentence
             badge="ABOUT"
-            title="We are creative, smart and hardworking people"
+            title="Kami tim dari RiuStudio.id"
             description={`Beberapa orang kreatif berkumpul di tempat yang sama - itulah RiuStudio. Kami berkolaborasi untuk menghasilkan hasil terbaik, disukai klien dan nyaman bagi pengguna. Disini kita menjaga kebersamaan walaupun dengan latar belakang yang berbeda-beda, semua orang disini sudah ahli di bidangnya masing-masing.`}
           />
         </aside>
@@ -43,8 +43,8 @@ const About = () => {
         >
           <SectionSentence
             badge="STATISTICS"
-            title="Dalam 2 tahun kami menjangkau 1 negara, 10 klien dan menghasilkan $43 USD"
-          />
+            title="Ini Statistik kita dalam 2 tahun ke belakang." 
+            />
         </div>
         <div className="w-full grid gap-14">
           <div data-aos="fade-right">
