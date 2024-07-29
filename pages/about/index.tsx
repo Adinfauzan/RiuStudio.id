@@ -30,7 +30,7 @@ const About = () => {
         >
           <PageSentence
             badge="ABOUT"
-            title="Kami tim dari RiuStudio.id"
+            title="Kami tim dari RiuStudio"
             description={`Beberapa orang kreatif berkumpul di tempat yang sama - itulah RiuStudio. Kami berkolaborasi untuk menghasilkan hasil terbaik, disukai klien dan nyaman bagi pengguna. Disini kita menjaga kebersamaan walaupun dengan latar belakang yang berbeda-beda, semua orang disini sudah ahli di bidangnya masing-masing.`}
           />
         </aside>
