@@ -8,29 +8,29 @@ import getRandomItemsFromArray from 'utils/getRandomItemsFromArray'
 
 const Faq = () => {
   const faqs = [
+      {
+        title: `Bagaimana sistem pembayarannya?`,
+        description: `Jika proyek sudah disetujui, Anda akan membayar uang muka, dan bila progresnya mencapai 50% Anda akan melakukan pembayaran kedua, dan bila progresnya 100% Anda akan melunasinya.`,
+      },
+      {
+        title: `Bolehkah saya berkonsultasi terlebih dahulu?`,
+        description: `Tentu saja Anda dapat berkonsultasi dengan kami terlebih dahulu. Kami sangat senang membantu permasalahan Anda dan memberikan solusi terbaik kami. Anda dapat menghubungi kami melalui halaman kontak.`,
+      },
+      {
+        title: `Bagaimana jika proyek terhenti di tengah jalan?`,
+        description: `Kami berjanji akan selalu menyelesaikan proyek tepat waktu, jika terjadi masalah (karena kesalahan kami), semua pembayaran akan dikembalikan. Dan proyek tersebut akan dihentikan.`,
+      },
+      {
+        title: `Apakah itu termasuk server dan domain?`,
+        description: `Anda tidak perlu memikirkan hal lain, semuanya sudah kami persiapkan. Anda hanya perlu memeriksa kemajuan Anda dan memastikan fitur yang Anda inginkan sudah tepat.`,
+      },
+      {
+        title: `Apakah saya akan mendapatkan kode sumbernya?`,
+        description: `Ketika proyek selesai 100%, semua sumber daya, seperti file desain, diagram analisis, kode sumber, dll. akan diberikan kepada Anda. Anda tidak perlu khawatir tentang hal ini.`,
+      },
     {
-      title: `How is the payment system?`,
-      description: `If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.`,
-    },
-    {
-      title: `Can I consult first?`,
-      description: `Of course you can consult us first. We are very happy to help your problems and provide our best solutions. You can contact us via the contact page.`,
-    },
-    {
-      title: `What if the project stops halfway?`,
-      description: `We promise to always finish the project on time, if a problem occurs (because of our mistake), all payments will be refunded. And the project will be terminated.`,
-    },
-    {
-      title: `Does it include servers and domains?`,
-      description: `You don't need to think about anything else, we have everything prepared. You just need to check your progress and make sure the features you want are the right one.`,
-    },
-    {
-      title: `Will I get the source code?`,
-      description: `When the project is 100% complete, all the resources, such as design files, analysis diagrams, source code, etc. will be provided to you. You don't need to worry about this.`,
-    },
-    {
-      title: `Is there a warranty?`,
-      description: `1 year warranty for our errors or mistakes. If you want to add a feature that is not included in the warranty, there is another fee per feature, and the price depends on the difficulty.`,
+      title: `Apakah ada garansi?`,
+      description: `Garansi 1 tahun atas kesalahan atau kekeliruan kami. Jika ingin menambahkan fitur yang tidak termasuk dalam garansi, ada biaya lain per fitur, dan harga tergantung tingkat kesulitan.`,
     },
   ]
   const [randomFaqs, setRandomFaqs] = useState([faqs, faqs, faqs, faqs])
@@ -38,28 +38,28 @@ const Faq = () => {
   useEffect(() => {
     const faqs = [
       {
-        title: `How is the payment system?`,
-        description: `If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.`,
+        title: `Bagaimana sistem pembayarannya?`,
+        description: `Jika proyek sudah disetujui, Anda akan membayar uang muka, dan bila progresnya mencapai 50% Anda akan melakukan pembayaran kedua, dan bila progresnya 100% Anda akan melunasinya.`,
       },
       {
-        title: `Can I consult first?`,
-        description: `Of course you can consult us first. We are very happy to help your problems and provide our best solutions. You can contact us via the contact page.`,
+        title: `Bolehkah saya berkonsultasi terlebih dahulu?`,
+        description: `Tentu saja Anda dapat berkonsultasi dengan kami terlebih dahulu. Kami sangat senang membantu permasalahan Anda dan memberikan solusi terbaik kami. Anda dapat menghubungi kami melalui halaman kontak.`,
       },
       {
-        title: `What if the project stops halfway?`,
-        description: `We promise to always finish the project on time, if a problem occurs (because of our mistake), all payments will be refunded. And the project will be terminated.`,
+        title: `Bagaimana jika proyek terhenti di tengah jalan?`,
+        description: `Kami berjanji akan selalu menyelesaikan proyek tepat waktu, jika terjadi masalah (karena kesalahan kami), semua pembayaran akan dikembalikan. Dan proyek tersebut akan dihentikan.`,
       },
       {
-        title: `Does it include servers and domains?`,
-        description: `You don't need to think about anything else, we have everything prepared. You just need to check your progress and make sure the features you want are the right one.`,
+        title: `Apakah itu termasuk server dan domain?`,
+        description: `Anda tidak perlu memikirkan hal lain, semuanya sudah kami persiapkan. Anda hanya perlu memeriksa kemajuan Anda dan memastikan fitur yang Anda inginkan sudah tepat.`,
       },
       {
-        title: `Will I get the source code?`,
-        description: `When the project is 100% complete, all the resources, such as design files, analysis diagrams, source code, etc. will be provided to you. You don't need to worry about this.`,
+        title: `Apakah saya akan mendapatkan kode sumbernya?`,
+        description: `Ketika proyek selesai 100%, semua sumber daya, seperti file desain, diagram analisis, kode sumber, dll. akan diberikan kepada Anda. Anda tidak perlu khawatir tentang hal ini.`,
       },
       {
-        title: `Is there a warranty?`,
-        description: `1 year warranty for our errors or mistakes. If you want to add a feature that is not included in the warranty, there is another fee per feature, and the price depends on the difficulty.`,
+        title: `Apakah ada garansi?`,
+        description: `Garansi 1 tahun atas kesalahan atau kekeliruan kami. Jika ingin menambahkan fitur yang tidak termasuk dalam garansi, ada biaya lain per fitur, dan harga tergantung tingkat kesulitan.`,
       },
     ]
     setRandomFaqs([
@@ -75,7 +75,7 @@ const Faq = () => {
         <div className="sm:w-10/12 md:8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="FAQ"
-            title="Frequently asked questions, maybe the same as yours"
+            title="Pertanyaan yang sering diajukan, mungkin sama dengan pertanyaan Anda"
           />
         </div>
       </section>
@@ -84,25 +84,25 @@ const Faq = () => {
           <FaqTabbar
             tabs={[
               {
-                name: 'General',
+                name: 'Umum',
                 onClick: () => {
                   setActiveFaq(randomFaqs[0])
                 },
               },
               {
-                name: 'Transaction',
+                name: 'Transaksi',
                 onClick: () => {
                   setActiveFaq(randomFaqs[1])
                 },
               },
               {
-                name: 'Maintenance',
+                name: 'Pemeliharaan',
                 onClick: () => {
                   setActiveFaq(randomFaqs[2])
                 },
               },
               {
-                name: 'Technology',
+                name: 'Teknologi',
                 onClick: () => {
                   setActiveFaq(randomFaqs[3])
                 },
