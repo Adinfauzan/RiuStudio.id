@@ -10,13 +10,13 @@ import randomString from 'utils/randomString'
 const Blog = () => {
   const blogListData: BlogCardProps[] = [
     {
-      authorAvatarSrc: '/images/blog-author-1.webp',
-      authorName: 'Jane Cooper',
+      authorAvatarSrc: '/images/blog-author-1',
+      authorName: 'Riu',
       launchDate: 'Mar 18',
-      lead: 'People have been using wrong SEO techniques on their websites.',
+      lead: 'Orang-orang telah menggunakan teknik SEO yang salah di situs web mereka.',
       readTime: '5 min',
       thumbnailSrc: '/images/blog-thumbnail-1.webp',
-      title: 'SEO tricks that can increase the traffic of your website',
+      title: 'Trik SEO yang dapat meningkatkan traffic website Anda',
     },
   ]
   return (
@@ -25,7 +25,7 @@ const Blog = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-uo">
           <PageSentence
             badge="BLOG"
-            title="Get precise knowledge wherever you are"
+            title="Dapatkan pengetahuan yang tepat dimanapun Anda berada"
           />
         </div> 
       </section>
