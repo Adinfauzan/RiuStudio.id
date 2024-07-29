@@ -5,7 +5,7 @@ const Document = () => {
   return (
     <Html lang='en'>
       <Head>
-          <meta name="description" content="An company profile of RiuStudio Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance" />
+          <meta name="description" content="Profil perusahaan RiuStudio. Perusahaannya yang melayani Pengembangan Aplikasi (Mobile, Web dan Desktop), Desain dan Pemeliharaan UI UX" />
           <meta name="robots" content="index, follow" />
           <meta name='tags' content='web,app,ui,maintenance,company,riustuio,profile' />
         <link
