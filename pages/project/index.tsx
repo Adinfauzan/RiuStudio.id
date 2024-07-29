@@ -14,12 +14,12 @@ const Project = () => {
   }
   const projectList: Project[] = [
     {
-      title: 'The Mobile App Landing Page',
-      description: 'A landing page for mobile app',
+      title: 'Halaman Dasar Aplikasi Seluler',
+      description: 'Halaman arahan untuk aplikasi seluler',
     },
   ]
   return (
-    <PageTemplate title="Project - RiuStudio">
+    <PageTemplate title="Projects - RiuStudio">
       <section className="flex flex-col items-center gap-5 md:flex-row md:justify-between">
         <aside
           className="w-full sm:w-10/12 grid grid-cols-1 place-items-center gap-12 md:place-items-start md:w-8/12 lg:w-6/12"
@@ -28,7 +28,7 @@ const Project = () => {
           <div className="text-center md:text-left">
             <PageSentence
               badge="PROJECTS"
-              title="We have completed many amazing projects that you will not believe"
+              title="Sebelumnya kami mengerjakan proyek, ayo dilihat."
             />
           </div>
         </aside>
@@ -56,7 +56,7 @@ const Project = () => {
             )
           })}
         </div>
-        <Button value="Load More" color="white" style="light" />
+        <Button value="Load more" color="white" style="light" />
       </section>
     </PageTemplate>
   )
