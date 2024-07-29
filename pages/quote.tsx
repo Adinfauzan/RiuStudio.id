@@ -10,19 +10,19 @@ import React from 'react'
 const Quote = () => {
   return (
     <>
-      <PageTemplate title='Send Quote - Collosal'>
+      <PageTemplate title='RiuStudio - Kirim Penawaran'>
         <section className="grid grid-cols-1 place-items-center gap-5 lg:grid-cols-2">
           <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 place-items-center gap-12 lg:w-full lg:place-items-start" data-aos="fade-down-right">
             <div className="text-center lg:text-left">
               <PageSentence
-                title="Tell us about your problem and how we can help"
-                description="We are happy to help you, tell us what is the problem with your company, and we are ready to answer these problems. It usually takes a few minutes for us to respond."
-                badge="SEND QUOTE"
+                title="Beritahu kami tentang masalah Anda dan bagaimana kami dapat membantu"
+                description="Kami dengan senang hati membantu Anda, beritahu kami apa permasalahan yang ada pada perusahaan Anda, dan kami siap menjawab permasalahan tersebut. Biasanya diperlukan waktu beberapa menit bagi kami untuk merespons."
+                badge="KIRIM PENAWARAN"
               />
             </div>
             <div className="w-fit">
               <ButtonLink
-                value="Ask Us"
+                value="Tanya kami"
                 href="/faq"
                 color="white"
                 style="light"
@@ -46,8 +46,8 @@ const Quote = () => {
                   ]}
                 />
               </div>
-              <TextAreaGroup label="Tell Us Your Problem" />
-              <Button value="Send Quote" />
+              <TextAreaGroup label="Beritahu Kami Masalah Anda" />
+              <Button value="Kirim Penawaran" />
             </div>
           </aside>
         </section>
