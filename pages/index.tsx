@@ -22,13 +22,13 @@ const Home = () => {
         >
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
-              title="We Design. We Develop. We Ship. In The Same Day."
-              description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
-              badge="CLIENT-DEVELOPMENT-DRIVEN"
+              title="Kami Desain. Kami Ngebangun. Kami Mengirim. Di Hari Yang Sama."
+              description="Kami berkomitmen untuk tidak membuat klien menunggu. Kami akan mengirimkan pekerjaan secepat mungkin. Bahkan di hari yang sama. Meski begitu, kami tidak mengurangi kualitas pekerjaan kami."
+              badge="BERORIENTASI PADA PENGEMBANGAN KLIEN"
             />
           </div>
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">
-            <ButtonLink value="Send Quote" href="/quote" />
+            <ButtonLink value="Kirim Penawaran" href="/quote" />
             <ButtonLink
               value="Learn More"
               color="white"
@@ -42,21 +42,21 @@ const Home = () => {
           <div data-aos="fade-up">
             <FeatureCard
               title="Design"
-              description="The project interface will be designed first, our favorite tool is Figma."
+              description="Antarmuka proyek akan dirancang terlebih dahulu, alat favorit kami adalah Figma dan Adobe Photoshop."
               icon={<FiFigma />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
               title="Develop"
-              description="Transform design and write business logic here. Choose the technology you want."
+              description="Ubah desain dan tulis logika bisnis di sini. Pilih teknologi yang Anda inginkan."
               icon={<FiCode />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
               title="Ship"
-              description="After the work is complete, we will send the project and all its assets to you."
+              description="Setelah pekerjaan selesai, kami akan mengirimkan proyek beserta seluruh asetnya kepada Anda."
               icon={<FiBox />}
             />
           </div>
@@ -78,9 +78,9 @@ const Home = () => {
             data-aos="fade-left"
           >
             <SectionSentence
-              title="Everything is well planned, well designed and developed wholeheartedly"
-              paragraph="Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped."
-              badge="HOW WE WORK"
+              title="Semuanya terencana dengan baik, dirancang dengan baik dan dikembangkan dengan sepenuh hati"
+              paragraph="Perencanaan yang matang membuat kami percaya diri, dikembangkan dengan praktik terbaik sehingga proyek dapat dipertahankan. Kami selalu menguji proyek sebelum dikirim."
+              badge="BAGAIMANA KITA BEKERJA"
             />
           </aside>
         </section>
@@ -89,12 +89,12 @@ const Home = () => {
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
-                title="We're a team of designers, engineers and analysts"
-                paragraph="Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
-                badge="OUR TEAM"
+                title="Kami adalah tim desainer, pengembang, dan Analisis."
+                paragraph="Tim kami terdiri dari banyak orang kreatif. Kami berkomitmen untuk menjaga kualitas kerja dan kecepatan. Orang-orang kreatif ini bekerja sama untuk menciptakan hasil kerja yang maksimal."
+                badge="TIM KAMI"
               />
               <ButtonLink
-                value="See Our Teams"
+                value="Lihat Tim Kami"
                 href="/teams"
                 size="small"
                 color="white"
@@ -122,21 +122,21 @@ const Home = () => {
             data-aos="zoom-in-up"
           >
             <SectionSentence
-              title="We have completed many amazing projects that you will not believe"
+              title="Sebelumnya kami mengerjakan proyek, ayo dilihat."
               badge="PROJECTS"
             />
           </div>
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5">
             <div data-aos="flip-left">
               <ProjectCard
-                title="The Desktop App Landing Page"
-                description="A landing page for desktop app"
+                title="Halaman Arahan Aplikasi Desktop"
+                description="Ini adalah projects pembuatan aplikasi desktop."
               />
             </div>
             <div data-aos="flip-right">
               <ProjectCard
-                title="The Mobile App Landing Page"
-                description="A landing page for mobile app"
+                title="Laman Landas Aplikasi Seluler"
+                description="Ini adalah proyek desain aplikasi dengan figma dan Photoshop."
                 bottomSquareSize="big"
               />
             </div>
@@ -149,7 +149,7 @@ const Home = () => {
             data-aos="zoom-in-up"
           >
             <SectionSentence
-              title="What do you need? Choose a service that can help you"
+              title="Apa yang kamu butuhkan? Pilih layanan yang dapat membantu Anda."
               badge="GET STARTED"
             />
           </div>
@@ -162,7 +162,7 @@ const Home = () => {
                   '10 design pages',
                   'Well-documented',
                   '4 revisions',
-                  '$100/additional page',
+                  '$10/additional page',
                 ]}
               />
             </div>
@@ -174,19 +174,19 @@ const Home = () => {
                   'Web & Mobile',
                   'Well-documented',
                   '8 revisions',
-                  '$1000/additional page',
+                  '$15/additional page',
                 ]}
               />
             </div>
             <div data-aos="fade-up-left">
               <PricingCard
-                price="185$"
+                price="150$"
                 title="Maintenance"
                 features={[
                   'Daily backup',
                   '3 hours of maintenance',
                   'Including fixing',
-                  '$50/additional hour',
+                  '$5/additional hour',
                 ]}
               />
             </div>
@@ -196,7 +196,7 @@ const Home = () => {
         <section className="flex flex-col gap-16 items-center">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
             <SectionSentence
-              title="What do our clients say that we never let down?"
+              title="Apa yang dikatakan klien kami yang tidak pernah kami kecewakan?"
               badge="TESTIMONIAL"
             />
           </div>
