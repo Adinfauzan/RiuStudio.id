@@ -10,7 +10,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <PageTemplate title="About - RiuStudio">
+    <PageTemplate title="Tentang - RiuStudio">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
@@ -31,7 +31,7 @@ const About = () => {
           <PageSentence
             badge="ABOUT"
             title="We are creative, smart and hardworking people"
-            description={`Several creative people gather in the same place - that's RiuStudio. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields.`}
+            description={`Beberapa orang kreatif berkumpul di tempat yang sama - itulah RiuStudio. Kami berkolaborasi untuk menghasilkan hasil terbaik, disukai klien dan nyaman bagi pengguna. Disini kita menjaga kebersamaan walaupun dengan latar belakang yang berbeda-beda, semua orang disini sudah ahli di bidangnya masing-masing.`}
           />
         </aside>
       </section>
@@ -43,7 +43,7 @@ const About = () => {
         >
           <SectionSentence
             badge="STATISTICS"
-            title="In 2 years we reached 8 countries, 10 clients and earning $43 USD"
+            title="Dalam 2 tahun kami menjangkau 1 negara, 10 klien dan menghasilkan $43 USD"
           />
         </div>
         <div className="w-full grid gap-14">
@@ -59,8 +59,8 @@ const About = () => {
           data-aos="zoom-in-up"
         >
           <SectionSentence
-            badge="OUR TEAMS"
-            title="Meet the team! All creative people are here"
+            badge="TIM KAMI"
+            title="Temui Tim RiuStudio"
           />
         </div>
         <div className="w-full grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
@@ -89,7 +89,7 @@ const About = () => {
             <TeamCard
               imageSrc="/images/team/"
               job="Grafik Desainer"
-              name="Marvin McKinney"
+              name=""
             />
           </div>
           
