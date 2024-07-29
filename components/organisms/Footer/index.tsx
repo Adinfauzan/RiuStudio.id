@@ -34,28 +34,28 @@ const Footer = () => {
                   href="/service/detail"
                 />
                 <NavLink value="UI Design" href="/service/detail" />
-                <NavLink value="Consultation" href="/service/detail" />
-                <NavLink value="Maintenance" href="/service/detail" />
-                <NavLink value="Pricing" href="/pricing" />
+                <NavLink value="Konsultasi" href="/service/detail" />
+                <NavLink value="Pemeliharaan" href="/service/detail" />
+                <NavLink value="Harga" href="/pricing" />
               </div>
             </div>
             <div className="space-y-5">
               <Text value="COMPANY" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
-                <NavLink value="About" href="/about" />
-                <NavLink value="Contact" href="/contact" />
-                <NavLink value="Send Quote" href="/quote" />
+                <NavLink value="Tentang" href="/about" />
+                <NavLink value="Kontak" href="/contact" />
+                <NavLink value="Kirim Penawaran" href="/quote" />
                 <NavLink value="Privacy Policy" href="/privacy-policy" />
                 <NavLink value="Term of Service" href="/term-of-service" />
-                <NavLink value="Jobs" href="/jobs" />
-                <NavLink value="Blogs" href="/blog" />
+                <NavLink value="Pekerjaan" href="/jobs" />
+                <NavLink value="Blog" href="/blog" />
               </div>
             </div>
             <div className="space-y-5">
               <Text value="RESOURCES" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
                 <NavLink value="Support" href="/support" />
-                <NavLink value="Documentation" href="/documentation" />
+                <NavLink value="Dokumentasi" href="/documentation" />
                 <NavLink value="License" href="/license" />
                 <NavLink value="Sitemap" href="/sitemap" />
               </div>
