@@ -20,7 +20,7 @@ const Home = () => {
           className="flex flex-col gap-10 items-center"
           data-aos="fade-up"
         >
-          <div className="w-1/12 md:w-3/12 text-center">
+          <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
               title="RiuStudio"
               description="Kami berkomitmen untuk tidak membuat klien menunggu. Kami akan mengirimkan pekerjaan secepat mungkin. Bahkan di hari yang sama. Meski begitu, kami tidak mengurangi kualitas pekerjaan kami."
@@ -74,7 +74,7 @@ const Home = () => {
             />
           </aside>
           <aside
-            className="text-center sm:w-1/12 lg:text-left lg:w-full"
+            className="text-center sm:w-10/12 lg:text-left lg:w-full"
             data-aos="fade-left"
           >
             <SectionSentence
@@ -86,7 +86,7 @@ const Home = () => {
         </section>
         {/* Our Teams */}
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
-          <aside className="text-center sm:w-3/12 lg:text-left lg:w-full">
+          <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
                 title="Kami adalah tim desainer, pengembang, dan Analisis."
@@ -118,7 +118,7 @@ const Home = () => {
         {/* Our Projects */}
         <section className="flex flex-col gap-16 items-center">
           <div
-            className="text-center sm:w-1/12 md:w-3/12 lg:w-6/12"
+            className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
             data-aos="zoom-in-up"
           >
             <SectionSentence
@@ -143,9 +143,9 @@ const Home = () => {
           </div>
         </section>
         {/* Prices */}
-        <section className="flex flex-col gap-16 items-center">
+        <section className="flex flex-col gap-16 items-left">
           <div
-            className="text-left sm:w-1/12 md:w-13/12 lg:w-6/12"
+            className="text-center sm:w-10/12 md:w-13/12 lg:w-6/12"
             data-aos="zoom-in-up"
           >
             <SectionSentence
