@@ -142,7 +142,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/* Prices */}
+        {/* Prices
         <section className="flex flex-col gap-16 items-left">
           <div
             className="text-center sm:w-10/12 md:w-13/12 lg:w-6/12"
@@ -215,10 +215,10 @@ const Home = () => {
               />
             </div>
           </div>
-        </section>
+        </section>*/
         {/* Testimonial */}
         <section className="flex flex-col gap-16 items-center">
-          <div className="text-center sm:w-1/12 md:w-3/12 lg:w-6/12" data-aos="zoom-in-up">
+          <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
             <SectionSentence
               title="Apa yang dikatakan klien kami yang tidak pernah kami kecewakan?"
               badge="TESTIMONIAL"
