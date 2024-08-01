@@ -209,7 +209,7 @@ const Home = () => {
                   'Bantuan 24/7',
                   'Email Gratis',
                   '100Gb SSD Storage',
-                  'Backup Mingguan dan Sesuai Kebutuhan'
+                  'Backup Mingguan dan Sesuai Kebutuhan',
                   'Jaminan 30 Hari Uang Kembali',
                 ]}
               />
