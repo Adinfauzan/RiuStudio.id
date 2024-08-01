@@ -24,7 +24,7 @@ const PricingCard = ({
       <div className="flex flex-row place-content-between items-start py-8 border-b border-borderLight">
         <Text value={title} textStyle="PricingTitle" />
         <div className="">
-          <Text value="Starting From" textStyle="PricingSubtitle" />
+          <Text value="" textStyle="PricingSubtitle" />
           <Text value={price} textStyle="PricingPrice" />
         </div>
       </div>
