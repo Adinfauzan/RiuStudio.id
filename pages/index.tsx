@@ -163,7 +163,7 @@ const Home = () => {
                   'Dapet File',
                   '3x Revisi',
                   '1 Domain',
-                  'Bantuan 24/7
+                  'Bantuan 24/7',
                   '1Gb Storage Hosting',
                   'Template Request',
                 ]}
