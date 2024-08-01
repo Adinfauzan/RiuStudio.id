@@ -20,9 +20,9 @@ const Home = () => {
           className="flex flex-col gap-10 items-center"
           data-aos="fade-up"
         >
-          <div className="w-10/12 md:w-8/12 text-center">
+          <div className="w-1/12 md:w-3/12 text-center">
             <PageSentence
-              title="Kami Desain. Kami Ngebangun. Kami Mengirim. Di Hari Yang Sama."
+              title="RiuStudio"
               description="Kami berkomitmen untuk tidak membuat klien menunggu. Kami akan mengirimkan pekerjaan secepat mungkin. Bahkan di hari yang sama. Meski begitu, kami tidak mengurangi kualitas pekerjaan kami."
               badge="BERORIENTASI PADA PENGEMBANGAN KLIEN"
             />
@@ -30,7 +30,7 @@ const Home = () => {
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">
             <ButtonLink value="Kirim Penawaran" href="/quote" />
             <ButtonLink
-              value="Learn More"
+              value="Tentang"
               color="white"
               style="light"
               href="/about"
@@ -74,7 +74,7 @@ const Home = () => {
             />
           </aside>
           <aside
-            className="text-center sm:w-10/12 lg:text-left lg:w-full"
+            className="text-center sm:w-1/12 lg:text-left lg:w-full"
             data-aos="fade-left"
           >
             <SectionSentence
@@ -86,7 +86,7 @@ const Home = () => {
         </section>
         {/* Our Teams */}
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
-          <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
+          <aside className="text-center sm:w-3/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
                 title="Kami adalah tim desainer, pengembang, dan Analisis."
@@ -118,7 +118,7 @@ const Home = () => {
         {/* Our Projects */}
         <section className="flex flex-col gap-16 items-center">
           <div
-            className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
+            className="text-center sm:w-1/12 md:w-3/12 lg:w-6/12"
             data-aos="zoom-in-up"
           >
             <SectionSentence
@@ -145,7 +145,7 @@ const Home = () => {
         {/* Prices */}
         <section className="flex flex-col gap-16 items-center">
           <div
-            className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
+            className="text-left sm:w-1/12 md:w-13/12 lg:w-6/12"
             data-aos="zoom-in-up"
           >
             <SectionSentence
@@ -156,37 +156,61 @@ const Home = () => {
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
             <div data-aos="fade-up-right">
               <PricingCard
-                price="92$"
-                title="UI Design"
+                price="Rp.350.000"
+                title="Toko Online"
                 features={[
-                  '10 design pages',
-                  'Well-documented',
-                  '4 revisions',
-                  '$10/additional page',
+                  '5 Halaman',
+                  'Dapet File',
+                  '3x Revisi',
+                  '1 Domain',
+                  'Bantuan 24/7
+                  '1Gb Storage Hosting',
+                  'Template Request',
                 ]}
               />
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <PricingCard
-                price="153$"
-                title="Development"
+                price="Rp.375.000"
+                title="Portfolio"
                 features={[
-                  'Web & Mobile',
-                  'Well-documented',
-                  '8 revisions',
-                  '$15/additional page',
+                  '5 Halaman',
+                  'Dapet File',
+                  '3 Revisi',
+                  '1 Domain',
+                  'Bantuan 24/7',
+                  '1Gb Storage Hosting',
+                  'Template Request',
+                ]}
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+              <PricingCard
+                price="Rp 250.000"
+                title="Maintenance"
+                features={[
+                   'Back Up',
+                   '3 Jam Maintenance',
+                   'Bantuan 24/7',
+                   'Termasuk Memperbaiki',
+                   'Rp.75.000/Tambah Jam',
                 ]}
               />
             </div>
             <div data-aos="fade-up-left">
               <PricingCard
-                price="150$"
-                title="Maintenance"
+                price="Rp.150.000"
+                title="Manage WordPress"
                 features={[
-                  'Daily backup',
-                  '3 hours of maintenance',
-                  'Including fixing',
-                  '$5/additional hour',
+                  'Template Gratis',
+                  '1 Domain',
+                  '~10.000 Kunjungan Bulanan',
+                  '5 Revisi',
+                  'Bantuan 24/7',
+                  'Email Gratis',
+                  '100Gb SSD Storage',
+                  'Backup Mingguan dan Sesuai Kebutuhan'
+                  'Jaminan 30 Hari Uang Kembali',
                 ]}
               />
             </div>
@@ -194,7 +218,7 @@ const Home = () => {
         </section>
         {/* Testimonial */}
         <section className="flex flex-col gap-16 items-center">
-          <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
+          <div className="text-center sm:w-1/12 md:w-3/12 lg:w-6/12" data-aos="zoom-in-up">
             <SectionSentence
               title="Apa yang dikatakan klien kami yang tidak pernah kami kecewakan?"
               badge="TESTIMONIAL"
